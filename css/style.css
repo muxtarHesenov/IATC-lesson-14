@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+}
+.nav_padding_zero{
+    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 70%;
+    position: absolute;
+    z-index: 10;
+}
+.mCarousel{
+    position: absolute;
+    z-index: 9;
+}
+.myCase{
+    width: 500px;
+    min-height: 200px;
+    margin: 0px 0px 40px 0px;
+    font-size: 20px;
+}
+.myText{
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    text-align: left;
+}
+.myEx{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.myButton{
+    background:#106CC9FF;
+}
+.myButtonDiv{
+    width: 50px;
+    height: 20px;
+}
+.myBox{
+    width: 100%px;
+    min-height: 200px;
+    margin-top: 37%;
+}
+.mm{
+    text-align: center;
+    margin-top: 100px;
+}
+.myText2{
+    font-size: 32px;
+}
+.myText3{
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+    .mCarousel{
+        display: none !important;
+       
+    }
+    .myBox{
+        margin-top:calc(37% + 130px);
+    }
+}
